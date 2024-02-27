@@ -1,0 +1,63 @@
+body {
+    background: url(./bg.jpg);
+    background-size: cover;
+    text-align: center;
+}
+
+table {
+    margin: auto;
+}
+
+td {
+    padding: 0;
+}
+
+.card-container {
+    width: 100px;
+    height: 80px;
+    position: relative;
+}
+
+.card-pic {
+    padding: 10px;
+    margin: 3px;
+    width: 60px;
+    height: 32px;
+    background: #5998d0;
+    border: 6px solid #fff;
+    border-radius: 5px;
+    position: relative;
+}
+
+.card-fon {
+    width: 92px;
+    height: 64px;
+    background: linear-gradient(30grad, #3b3b73, pink);
+    border-radius: 3px;
+    position: absolute;
+    top: 0px;
+    left: 3px;
+    transition: all 0.2s;
+}
+
+.card-fon:hover {
+    top: -10px;
+    left: -2px;
+    -webkit-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.8);
+    -moz-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.8);
+    box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.8);
+    transition: all 0.5s;
+}
+
+i {
+    font-size: 30px;
+    color: #c2f6ff;
+}
+
+.fon-collect {
+    width: 150px;
+    height: 100px;
+    background: #fff;
+    margin: 10px auto;
+    border-radius: 10px;
+}
