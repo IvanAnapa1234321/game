@@ -1,7 +1,8 @@
 body {
+   
     background: url(./bg.jpg);
     background-size: cover;
-    text-align: center;
+    justify-content: center;
 }
 
 table {
@@ -23,17 +24,17 @@ td {
     margin: 3px;
     width: 60px;
     height: 32px;
-    background: #5998d0;
-    border: 6px solid #fff;
-    border-radius: 5px;
+    background: #2cb18d;
+    border: 4px solid #4e1e79;
+    border-radius: 7px;
     position: relative;
 }
 
 .card-fon {
     width: 92px;
     height: 64px;
-    background: linear-gradient(30grad, #3b3b73, pink);
-    border-radius: 3px;
+    background: linear-gradient(3deg, #e6d16c, #16014c);
+    border-radius: 7px;
     position: absolute;
     top: 0px;
     left: 3px;
@@ -48,16 +49,21 @@ td {
     box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.8);
     transition: all 0.5s;
 }
-
-i {
+ 
+ i  {
     font-size: 30px;
     color: #c2f6ff;
+    
 }
 
 .fon-collect {
     width: 150px;
     height: 100px;
-    background: #fff;
-    margin: 10px auto;
-    border-radius: 10px;
+    background: linear-gradient(4deg, #5462c3, #ba872c);
+    margin: 10px  auto;
+    border-radius: 7px ;
+    border: 3px solid #21bd35;
+    
+   
 }
+ 
